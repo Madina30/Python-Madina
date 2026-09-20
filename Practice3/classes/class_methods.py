@@ -1,0 +1,24 @@
+#1
+class Person:
+  def __init__(self, name):
+    self.name = name
+
+  def greet(self):
+    print("Hello, my name is " + self.name)
+
+p1 = Person("Madina")
+p1.greet()
+
+
+#2
+class Calculator:
+  def add(self, a, b):
+    return a + b
+
+  def multiply(self, a, b):
+    return a * b
+
+calc = Calculator()
+print(calc.add(6, 7))
+print(calc.multiply(8, 10))
+
