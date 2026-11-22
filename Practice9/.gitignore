@@ -1,0 +1,5 @@
+music_player/music/*.mp3
+music_player/music/*.wav
+music_player/music/*.ogg
+__pycache__/
+*.pyc
